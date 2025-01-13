@@ -1,0 +1,42 @@
+/* Basic styling for the navbar */
+.navbar {
+  height: 76px;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+/* Styling for the divs inside the navbar */
+.left-container {
+  display: flex;
+  flex: auto;
+}
+.right-container {
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+}
+
+/* Responsive design for smaller devices */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    height: auto;
+  }
+
+  .navbar div {
+    margin: 10px 0;
+  }
+}
