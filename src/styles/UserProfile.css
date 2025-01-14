@@ -1,0 +1,54 @@
+.user-profile-div {
+  padding: 40px;
+}
+.user-profile-div hr {
+  border: 1px solid #272727;
+}
+.user-profile-div-img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
+  margin-bottom: 18px;
+
+}
+
+.user-profile-div-img-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.user-profile-div-img-container h1 {
+  margin: 0;
+  color: white;
+}
+
+.user-profile-div-details {
+  color: white;
+}
+.user-profile-div-details-address {
+  color: white;
+  margin: 1px 0px 20px;
+}
+
+.user-profile-div-details-eth-nft {
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.user-profile-div-details-eth-nft img {
+  width: 20px;
+}
+
+.user-profile-div-details-eth {
+  margin-right: 10px;
+}
+
+.user-profile-div-my-nfts {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: white;
+}

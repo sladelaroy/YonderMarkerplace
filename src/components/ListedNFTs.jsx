@@ -16,32 +16,80 @@ const ListedNFTs = () => {
                 <img src={heroBackground}/>
                 <div className='about-nft'>
                   <p>First Mint</p>
-                  <div className='price-icon'>
+                  <div className='about-nft-eth-price'>
                     <img src={ethereumIcon}/>
                     <span>  
                       0.05 ETH
                     </span>
-                  </div>   
+                  </div>
+                  
                 </div>
             </div>
             <div className='nft-containers'>
-              <img />
-              <div className='about-nft'>
-                <p>Title</p>
-                <span>Price</span>
-              </div>
+                <img src={heroBackground}/>
+                <div className='about-nft'>
+                  <p>First Mint</p>
+                  <div className='about-nft-eth-price'>
+                    <img src={ethereumIcon}/>
+                    <span>  
+                      0.05 ETH
+                    </span>
+                  </div>
+                  
+                </div>
             </div>
             <div className='nft-containers'>
-              <img />
-              <div className='about-nft'>
-                <p>Title</p>
-                <span>
-                  Price
-                </span>
-              </div>
+                <img src={heroBackground}/>
+                <div className='about-nft'>
+                  <p>First Mint</p>
+                  <div className='about-nft-eth-price'>
+                    <img src={ethereumIcon}/>
+                    <span>  
+                      0.05 ETH
+                    </span>
+                  </div>
+                  
+                </div>
             </div>
-            
-            
+            <div className='nft-containers'>
+                <img src={heroBackground}/>
+                <div className='about-nft'>
+                  <p>First Mint</p>
+                  <div className='about-nft-eth-price'>
+                    <img src={ethereumIcon}/>
+                    <span>  
+                      0.05 ETH
+                    </span>
+                  </div>
+                  
+                </div>
+            </div>
+            <div className='nft-containers'>
+                <img src={heroBackground}/>
+                <div className='about-nft'>
+                  <p>First Mint</p>
+                  <div className='about-nft-eth-price'>
+                    <img src={ethereumIcon}/>
+                    <span>  
+                      0.05 ETH
+                    </span>
+                  </div>
+                  
+                </div>
+            </div>
+            <div className='nft-containers'>
+                <img src={heroBackground}/>
+                <div className='about-nft'>
+                  <p>First Mint</p>
+                  <div className='about-nft-eth-price'>
+                    <img src={ethereumIcon}/>
+                    <span>  
+                      0.05 ETH
+                    </span>
+                  </div>
+                  
+                </div>
+            </div>
           </div>
       </div>
     </>

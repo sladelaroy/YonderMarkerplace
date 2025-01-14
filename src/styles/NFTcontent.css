@@ -35,7 +35,7 @@
   right: 0;
   width: 100%; 
   padding: 1px 13px; 
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
   backdrop-filter: blur(2px); 
 }
 
@@ -59,7 +59,7 @@
 .description-box {
   padding: 15px;
   /* background-color: #161616; */
-  background: linear-gradient(145deg, #1a1a1a, #333); 
+  background: linear-gradient(145deg, #1a1a1a, #161616); 
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), /* Top highlight */ 
               inset 0 -1px 0 rgba(0, 0, 0, 0.5), /* Bottom shadow */ 
               0 4px 6px rgba(0, 0, 0, 0.5); /* Outer shadow */

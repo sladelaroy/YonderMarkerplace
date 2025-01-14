@@ -23,6 +23,7 @@
 
 #listNftForm {
   width: 300px;
+  border-radius: 10px;
   height: auto;
   padding: 35px 25px;
   margin: 0 auto;
@@ -31,7 +32,10 @@
   justify-content: left;
   align-items: center;
   gap: 20px;
-  background-color: #181A1A;
+  background: linear-gradient(145deg, #1a1a1a, #161616); 
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), /* Top highlight */ 
+              inset 0 -1px 0 rgba(0, 0, 0, 0.5), /* Bottom shadow */ 
+              0 4px 6px rgba(0, 0, 0, 0.5); /* Outer shadow */
   transition: width 0.5s ease;
 }
 
@@ -118,4 +122,5 @@
   .list-nft-button {
     width: 100%;
   } */
+   
 }

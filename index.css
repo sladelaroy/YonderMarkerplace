@@ -6,7 +6,10 @@ body {
   padding-bottom: 1000px;
   /* display: flex; */
   min-height: 100vh;
-  background-color: #f4f4f9;
+  background: linear-gradient(145deg, #030303, #202020); 
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), /* Top highlight */ 
+              inset 0 -1px 0 rgba(0, 0, 0, 0.5), /* Bottom shadow */ 
+              0 4px 6px rgba(0, 0, 0, 0.5); /* Outer shadow */;
   color-scheme: dark;
 }
 
