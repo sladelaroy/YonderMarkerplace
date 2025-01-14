@@ -7,28 +7,97 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  background-color: #333;
+  background-color: rgba(15, 15, 15, 0.9);
+  backdrop-filter: blur(20px);
   color: white;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
+  border-bottom: 2px solid rgb(19, 19, 19);
 }
 
 
 /* Styling for the divs inside the navbar */
 .left-container {
   display: flex;
-  flex: auto;
+  flex: 1;
 }
 .right-container {
   display: flex;
-  flex: auto;
+  flex: 3;
   justify-content: flex-end;
+  gap: 15px;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 70px;
 }
 
+
+
+.searchElement{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c2c2c;
+  height: 50px;
+  width: 35%;
+  border-radius: 10px;
+  border-style: none;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+}
+
+.searchElement button {
+  all: unset;
+  display: inline-block; 
+  cursor: pointer;
+  margin-left: 10px
+}
+.searchElement img {
+  color: white;
+}
+.searchElement input {
+  all: unset;
+  width: 100%; 
+  box-sizing: border-box;
+}
+.searchElement:focus-within { 
+  border: 2px solid rgb(168, 168, 168);
+  
+}
+.searchElement input::placeholder {
+  color: white;
+  font-size: 16px;
+}
+.searchElement input::placeholder, .searchElement img {
+  opacity: 0.7;
+}
+
+.second-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.second-div button {
+  all: unset;
+  transition: all 0.3s;
+  border-bottom: 0px;
+  font-size: 17px;
+  font-weight: 700;
+  height: 50px;
+  display: inline-block; 
+  cursor: pointer; 
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  margin-left: 20px;
+  
+}
+
+.second-div button:hover {
+  border-bottom: 3px solid white;
+}
 /* Responsive design for smaller devices */
 @media (max-width: 768px) {
   .navbar {
