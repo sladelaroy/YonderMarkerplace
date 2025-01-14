@@ -1,0 +1,145 @@
+.nft-content {
+  margin: 100px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img-details-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #444444;
+  border-radius: 26px;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-details-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.img-details-container img:hover {
+  transform: scale(1.1);
+}
+
+.img-details-container .about-nft-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%; 
+  padding: 1px 13px; 
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  backdrop-filter: blur(2px); 
+}
+
+.img-details-container .about-nft-details p {
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  color: white;
+}
+
+.description-container h2 {
+  vertical-align: middle;
+}
+
+.description-box {
+  padding: 15px;
+  /* background-color: #161616; */
+  background: linear-gradient(145deg, #1a1a1a, #333); 
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), /* Top highlight */ 
+              inset 0 -1px 0 rgba(0, 0, 0, 0.5), /* Bottom shadow */ 
+              0 4px 6px rgba(0, 0, 0, 0.5); /* Outer shadow */
+  width: 450px;
+  height: 200px;
+  border: 1px solid rgb(66, 66, 66); 
+  border-radius: 10px; 
+  /* background-color: #f9f9f9;  */
+  overflow: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+.description-box hr {
+  border: 1px solid rgb(66, 66, 66);
+}
+
+.description-box h4 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.description-textbox {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  line-height: 1.5;
+  font-size: 16px;
+  color: rgb(218, 218, 218);
+}
+
+.description-header {
+  margin-bottom: 20px;
+}
+
+.description-header button {
+  width: 40%;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  background-color: #ED655E;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.description-header button:hover {
+  background-color: #FF7F7F;
+}
+.description-header button:active {
+  background-color: #D64C4C;
+}
+
+@media (max-width: 1000px) {
+  .nft-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 50px;
+    padding-left: 0px;
+  }
+
+  .img-details-container {
+    margin-bottom: 20px;
+  }
+
+  .description-box  {
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    overflow-wrap: break-word;
+  }
+  /* .description-textbox {
+    width: 100%;
+    height: auto;
+  } */
+  .description-container {
+    margin-left: 0px;
+    width: 100%;
+  }
+}

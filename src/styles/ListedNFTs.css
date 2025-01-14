@@ -5,7 +5,7 @@
 }
 
 .listed-nfts hr {
-  border: 1px solid #444444;
+  border: 1px solid #111111;
 }
 
 .listed-nfts p {
@@ -58,7 +58,7 @@
   width: 100%; 
   padding: 10px 1px; 
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-  backdrop-filter: blur(4px); 
+  backdrop-filter: blur(3px); 
   color: white;
   z-index: 1;
 }

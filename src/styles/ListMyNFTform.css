@@ -1,6 +1,121 @@
-.list-my-nft-form {
-  height: 636px;
-  width: 507px;
-  padding: 35px 25px;
+.list-my-nft-form-box {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* .list-my-nft-form {
+  height: auto; */
+  /* padding: 35px 25px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.form-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+#listNftForm {
+  width: 300px;
+  height: auto;
+  padding: 35px 25px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  background-color: #181A1A;
+  transition: width 0.5s ease;
+}
+
+.nft-name label, .nft-description label, .price-in-eth label, .nft-image label span {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(202, 202, 202);
+  margin-bottom: 9px;
+}
+.nft-name, .nft-description, .price-in-eth {
+  width: 100%;
+}
+
+.nft-name input, .price-in-eth input {
+  height: 40px;
+  width: 100%;
+  border-radius: 7px;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.nft-name input::placeholder, .price-in-eth input::placeholder {
+  color: rgb(148, 148, 148);
+  font-size: 14px;
+}
+
+.nft-description textarea {
+  font-family: Inter;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 7px;
+}
+
+.nft-description textarea::placeholder {
+  font-family: Inter;
+  color: rgb(148, 148, 148);
+  font-size: 14px;
+}
+
+.nft-image input[type="file"] {
+  height: 40px;
+  width: 70%;
+}
+
+.nft-image input[type="file"]::placeholder {
+  color: rgb(233, 233, 233);
+  font-size: 14px;
+}
+
+.list-nft-button {
+  width: 90%;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  background-color: #ED655E;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.list-nft-button:hover {
+  background-color: #FF7F7F;
+}
+.list-nft-button:active {
+  background-color: #D64C4C;
+}
+
+@media (min-width: 768px) {
+  #listNftForm {
+    width: 420px;
+  }
+  /* .list-my-nft-form {
+    width: 100%;
+  }
+  #listNftForm {
+    width: 100%;
+  }
+  .nft-image input[type="file"] {
+    width: 100%;
+  }
+  .list-nft-button {
+    width: 100%;
+  } */
 }

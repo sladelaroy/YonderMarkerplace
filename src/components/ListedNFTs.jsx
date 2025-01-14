@@ -21,8 +21,7 @@ const ListedNFTs = () => {
                     <span>  
                       0.05 ETH
                     </span>
-                  </div>
-                  
+                  </div>   
                 </div>
             </div>
             <div className='nft-containers'>
