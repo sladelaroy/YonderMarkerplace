@@ -5,7 +5,7 @@ import ethereumIcon from '../assets/images/ethereumIcon.svg';
 const ListedNFTs = () => {
   return (
     <>
-       <div className="listed-nfts">
+       <div id="lisedNftsId" className="listed-nfts">
           <div>
             <p>LISTED NFTs</p>
             <hr></hr>

@@ -29,7 +29,7 @@
   justify-content: flex-end;
   gap: 15px;
   align-items: center;
-  margin-right: 70px;
+  padding-right: 70px;
 }
 
 
@@ -40,7 +40,7 @@
   align-items: center;
   background-color: #2c2c2c;
   height: 50px;
-  width: 35%;
+  width: 45%;
   border-radius: 10px;
   border-style: none;
   padding: 0px 20px;
@@ -56,6 +56,11 @@
 }
 .searchElement img {
   color: white;
+}
+
+.searchIcon {
+  display: none;
+  width: 30px;
 }
 .searchElement input {
   all: unset;
@@ -82,27 +87,44 @@
 
 .second-div button {
   all: unset;
-  transition: all 0.3s;
+  color: white;
+  height: 50px;
+  margin-left: 20px;
   border-bottom: 0px;
+  border-radius: 2px;
   font-size: 17px;
   font-weight: 700;
-  height: 50px;
+  transition: all 0.3s;
   display: inline-block; 
   cursor: pointer; 
   -webkit-tap-highlight-color: transparent;
   outline: none;
-  margin-left: 20px;
+  text-decoration: none;
   
 }
 
+.second-div img {
+  display: none;
+  width: 30px;
+  height: 100%;
+}
 .second-div button:hover {
   border-bottom: 3px solid white;
 }
 /* Responsive design for smaller devices */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: row;
-    height: auto;
+@media (max-width: 900px) {
+  .searchElement {
+    display: none;
+  }
+  .searchIcon {
+    display: inline;
+  }
+  .second-div span {
+    display: none;
+  }
+
+  .second-div img {
+    display: inline;
   }
 
   .navbar div {

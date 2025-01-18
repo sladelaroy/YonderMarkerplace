@@ -1,6 +1,6 @@
 .hero {
   display: flex;
-  padding: 50px 25px;
+  padding: 50px 30px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@
   width: auto; 
   text-align: center;
   padding: 0px 7px;
-  z-index: 10;
+  z-index: 1;
   /* text-align: center;  */
   /* animation: revealText 1s forwards 2s; */
 }
